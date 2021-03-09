@@ -31,7 +31,9 @@ body {
   opacity: 0.8;
   font-family: "B612", sans-serif;
 }
-
+#meet-the-team {
+  background: white;
+}
 @media screen and (max-width: 770px) {
   #heading1 {
     font-size: x-large;
