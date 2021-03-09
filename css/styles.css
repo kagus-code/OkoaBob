@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap");
 body {
   background-size: cover;
   background-position: center center;
@@ -22,4 +23,17 @@ body {
 #last-caption {
   color: yellow;
   opacity: 0.5;
+}
+#what-we-do {
+  background: grey;
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+  font-family: "B612", sans-serif;
+}
+
+@media screen and (max-width: 770px) {
+  #heading1 {
+    font-size: x-large;
+  }
 }
