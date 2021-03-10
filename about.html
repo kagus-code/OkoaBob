@@ -278,12 +278,42 @@
           <p>Sunday :closed</p>
         </div>
         <div class="col-md-4">
-          <hr class="light" />
-          <h5>Service Area</h5>
-          <hr class="light" />
-          <p>Nairobi, ngong</p>
-          <p>Kiambu, thika</p>
-          <p>Nakuru, naivasha</p>
+          <!--location map-->
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>
+              (function () {
+                var setting = {
+                  height: 392,
+                  width: 467,
+                  zoom: 17,
+                  queryString:
+                    "Junction Mall Parking Hall, Ngong Road, Nairobi, Kenya",
+                  place_id: "ChIJcbhbs2saLxgRP6vWzb7XVbM",
+                  satellite: false,
+                  centerCoord: [-1.2987933003600516, 36.763010499999986],
+                  cid: "0xb355d7becdd6ab3f",
+                  lang: "en",
+                  cityUrl: "/kenya/nairobi-222",
+                  cityAnchorText: "Map of Nairobi, Nakuru, Kenya",
+                  id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                  embed_id: "421601",
+                };
+                var d = document;
+                var s = d.createElement("script");
+                s.src =
+                  "https://1map.com/js/script-for-user.js?embed_id=421601";
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting);
+                };
+                var to = d.getElementsByTagName("script")[0];
+                to.parentNode.insertBefore(s, to);
+              })();
+            </script>
+            <a href="https://1map.com/map-embed">1 Map</a>
+          </div>
+          <!--end of map-->
         </div>
       </div>
     </div>
