@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
+  color: 222;
 }
 #nav-main {
   background: linear-gradient(to bottom, #20f744 0%, aqua 100%);
